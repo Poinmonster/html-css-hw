@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owen's HW</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                      <a class="navbar-brand" href="#">Latitude</a>
+                    </div>
+              
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="./comparison.html">Comparison</a></li>
+                            <li><a href="./data.html">Data</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span>
+                                Plots
+                              </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="index.html">Max Temperature</a></li>
+                                  <li><a class="dropdown-item" href="./humidity.html">Humidity</a></li>
+                                  <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                                  <li><a class="dropdown-item" href="wind-speed.html">Wind Speed</a></li>
+                                  <li role="separator" class="divider"></li>
+                                  <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                  </div>
+                  <!-- /.container-fluid -->
+                </nav>
+            </nav>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                          <div class="text">
+                              <h2 id="heading">Wind Speed by Latitude</h2>
+                             
+                              <div id="floated">
+                                <img src="images/Fig4.png" alt="..." width = 400px>
+                              </div>
+                              <p>
+                                  
+                                Here is text. Real good stuff. Insight! Analysis! Even a bit of humor. The whole package really.
+                                More text. Blah blah blah. Enough to fill up the space around the image. Yes, it would have been faster to copy paste some lorem ipsum, but I've come this far already.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            
+            
+                               
+                              </p>
+                            
+                            </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text" id="side-header">
+                              <h2>Visualizations</h2>
+                          </div>
+                        <div class="row" id="sidebar">
+                          
+                            <a href="./index.html"><img src="images/Fig1.png" alt="..." width=180px></a>
+                            <a href="./humidity.html"> <img src="images/Fig2.png" alt="..." width=180px ></a> 
+                            <a href="./cloudiness.html"><img src="images/Fig3.png" alt="..." width=180px></a>
+                            <a href="./wind-speed.html"><img src="images/Fig4.png" alt="..." width=180px></a>
+                         
+                        </div>
+                      </div>
+                    </div>
+            </body>
+            <style>
+            .navbar-brand{
+              font-size: 24px;
+              color: cyan;
+            }
+            #floated{
+              float: left;
+            }
+            #sidebar{
+            
+              padding: 10px;
+              display: block;
+            
+            }
+            #side-header{
+              color:rgb(5, 83, 83)
+            }
+            #heading{
+              color:rgb(5, 83, 83)
+            }
+            </style>
+            </html>

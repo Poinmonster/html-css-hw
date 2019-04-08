@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Data</title>
+</head>
+<body>
+<!-- I tried about ten different things here and could not get the table to display. 
+I'm calling this one here, because I have to get on with my life and coding education, and I trust I'll figure this out eventually. -->
+
+
+<!-- <script>
+Here is one example of code I tried that errored before it read the csv.
+    $(document).ready(function() {
+    $.ajax({
+        type: "GET",
+        url: "cities.csv",
+        dataType: "text",
+        success: function(data) {processData(data);}
+     });
+});
+
+function processData(allText) {
+    var allTextLines = allText.split(/\r\n|\n/);
+    var headers = allTextLines[0].split(',');
+    var lines = [];
+
+    for (var i=1; i<allTextLines.length; i++) {
+        var data = allTextLines[i].split(',');
+        if (data.length == headers.length) {
+
+            var tarr = [];
+            for (var j=0; j<headers.length; j++) {
+                tarr.push(headers[j]+":"+data[j]);
+            }
+            lines.push(tarr);
+        }
+    }
+    // alert(lines);
+}
+</script> -->
+
+</body>
+</html>
